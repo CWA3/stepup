@@ -16,6 +16,7 @@ public class GuestbookServlet extends HttpServlet {
             resp.getWriter().println("Hello, " + user.getNickname());
         } else {
             resp.sendRedirect(userService.createLoginURL(req.getRequestURI()));
+            
         }
     }
 }
