@@ -39,7 +39,7 @@ public class SignGuestbookServlet extends HttpServlet {
         DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
         datastore.put(greeting);
         String test = 'test';
-        String rofl ='rofl';
+        String rofl ='roddddfl';
 
 
         resp.sendRedirect("/guestbook.jsp?guestbookName=" + guestbookName);
